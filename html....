@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title> SWIFT RECORS </title>
+
+</head>
+
+<style >
+
+body
+
+{
+
+background-image:url('https://img.freepik.com/premium-vector /realistic-elegant-geometric-shapes-background_23-2148413055
+
+.jpg?w=740');
+
+<br>
+
+}
+
+background-size: cover;
+
+background-position:centre;
+
+background-repeat: no-repeat;
+
+height: 100vh;
+
+margin:0;
+
+</style>
+
+<h1> Registration form </h1>
+
+<form action="/submit" method="post">
+
+<label for="name"> name: </label>
+
+<input type="text" id="name" name="name"> <br> <br>
+
+<label for="email"> email: </label>
+
+<input type ="email" id="email" name="email"> <br>
+
+<label for="password"> password: </label>
+
+<input type="password" id="password"
+
+name="password"> <br> <br>
+
+<label for="age"> age: </label>
+
+<input type="number" id="age" name="age"> <br> <br>
+
+<label for="dob"> date of birth: </label>
+
+<input type ="date" id="dob" name="dob"> <br> <br>
+
+</body>
+
+</html>
+
+<input type="submit" value ="submit">
+
+<input type="reset" value ="reset">
+
+</form>
